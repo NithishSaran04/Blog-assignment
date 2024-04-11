@@ -28,7 +28,7 @@ body{
     width: 336px;
     height: 200px;
     border-radius: 10px;
-    margin: 24px 24px;        
+    margin: 24px 24px 24px 24px;        
 }
 
 button{
@@ -46,11 +46,12 @@ button{
 .txt{
     width: 336px;
     height: 194px;
-    margin: 0 auto;
+    margin: 0 auto 12px auto;
 }
 
 .txt p{
     color: hsl(0, 0%, 50%);
+    line-height: 1.5;
 }
 
 h5{
@@ -63,7 +64,7 @@ h2{
     margin-bottom: 12px;
     margin-top: 0px;
     font-weight: 800;
-    color: hsl(47, 88%, 63%);;
+    color: black;
 }
 
 .author img{
