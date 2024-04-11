@@ -1,4 +1,88 @@
 body{
     font-family: Figtree;
-    
+    background-color: hsl(47, 88%, 63%);
+    font-size: 16px;
 }
+
+.container{
+    width: 384px;
+    height: 522px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    font-weight: 500;
+    box-shadow: 9px 9px 0px rgba(0, 0, 0, 1); 
+}
+
+.container:hover{
+  transform: translatex(-0.5px);
+  box-shadow: 17px 17px 0px;
+}
+
+.top{
+    width: 336px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 24px 24px;        
+}
+
+button{
+    width: 82px;
+    height: 29px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 4px;
+    border-style: none;
+    font-weight: 800;
+    margin-bottom: 12px;
+    margin-top: 0px;
+
+}
+
+.txt{
+    width: 336px;
+    height: 194px;
+    margin: 0 auto;
+}
+
+.txt p{
+    color: hsl(0, 0%, 50%);
+}
+
+h5{
+    margin-bottom: 12px;
+    margin-top: 0px;
+    font-weight: 500;
+}
+
+h2{
+    margin-bottom: 12px;
+    margin-top: 0px;
+    font-weight: 800;
+    color: hsl(47, 88%, 63%);;
+}
+
+.author img{
+    width: 32px;
+    height: 32px;
+}
+
+.author{
+    width: auto;
+    height: 32px;
+    margin-top: 24px;
+    margin-left: 24px;
+    font-weight: 800;
+    display: flex;
+}
+.author p{
+    width: auto;
+    height: 21px;
+    margin-left: 12px;
+    margin-top:8px
+}
+
+
+
+
+
